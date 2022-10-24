@@ -1,0 +1,37 @@
+
+
+header {
+    height: 75px;
+    background-color: #000;
+    color: #fff;
+}
+
+header img[alt='logo'] {
+    margin-left: 115.28px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    margin-right: 170px;
+
+}
+
+header a {
+    height: 75px;
+    width: 113.8px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Open Sans, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+}

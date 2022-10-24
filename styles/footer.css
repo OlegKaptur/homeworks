@@ -1,0 +1,22 @@
+
+footer {
+    height: 164px;
+    background: #000;
+}
+
+.contact-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+}
+.contact-icon img:not(:last-of-type) {
+  margin-right: 52.31px;  
+}
+footer h5 {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 32.23px;
+    font-weight: 400;
+    font-size: 18px;
+}

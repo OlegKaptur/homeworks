@@ -1,0 +1,44 @@
+
+.social-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    height: 140px;
+    margin-bottom: 109px;
+    
+}
+.social-subcontainer {
+    width: 1510px;
+    height: 140px;
+    background: #F8EFEF;
+    display: flex;
+
+}
+
+.social-subcontainer__text h4 {
+    width: 470px;
+    height: 60px;
+    font-family: Open Sans, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 2px 49.84px 18px 170px;
+
+}
+
+.social-subcontainer__text h5 {
+    width: 470px;
+    height: 42px;
+    margin: 0 49.84px 18px 170px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.social-subcontainer__icon {
+    height: 70px;
+    width: 590px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 140px 35px 0;
+}

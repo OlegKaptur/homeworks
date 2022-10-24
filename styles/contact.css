@@ -1,0 +1,74 @@
+
+.contact-us-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contact-us-subcontainer {
+    width: 1170px;
+}
+
+.contact-us-subcontainer h2 {
+    height: 150px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.contact__separator {
+    width: 170px;
+    border: 0.5px solid #EC7979;
+    margin: 0 auto;
+}
+
+.contact-us-subcontainer h5 {
+    height: 21px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+    text-align: center;
+    line-height: 21px;
+    margin: 40px 0 89px;
+}
+
+.form .field {
+    width: 571px;
+    height: 38px;
+    border-bottom: 3px solid #BDBDBD;
+    color: #BDBDBD;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 50px;
+    font-family: Open Sans, sans-serif;
+}
+
+.contact-us-subcontainer button {
+    width: 370px;
+    height: 58px;
+    background: #EC7979;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    margin: 50px auto 50px;
+    font-family: Open Sans, sans-serif;
+
+}
+.inputs {
+    display: flex;
+    justify-content: space-between;
+}
+.left-side, .right-side {
+    width: 569px;
+
+}
+
+.right-side .field:not(:last-of-type) {
+    border-color: #fff;
+}

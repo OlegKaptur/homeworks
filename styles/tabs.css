@@ -1,93 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap');
-
-* {
-    font-family: "Raleway", "sans-serif";
-}
 
 .tabs-container {
     width: 1170px;
     margin: auto;
     height: 100vh;
+}
 
+.tabs-container__tabs-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .info-block {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 180px;
     height: 39px;
+    font-weight: 400;
     border-bottom: 1px solid #C6CBCD;
-    margin-right: -5px;
     font-size: 14px;
-    font-family: 'Open Sans';
+    font-family: Open Sans, sans-serif;
     text-transform: uppercase;
-    color: #333333;
-    text-align: center;
+
 }
 
 .info-block1 {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 201px;
     height: 39px;
     border: 1px solid #C6CBCD;
     border-radius: 5px 5px 0px 0px;
-    margin-right: -5px;
     border-bottom: 0;
     font-size: 14px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    color: #333333;
-    text-align: center;
 }
 
 .info-block4 {
-    display: inline-block;
-    width: 610px;
+    width: 609px;
     height: 39px;
     border-bottom: 1px solid #C6CBCD;
-    margin-right: -5px;
     font-size: 14px;
-    font-family: 'Open Sans';
+    font-family: Open Sans, sans-serif;
     text-transform: uppercase;
-    color: #333333;
 }
 
-.description {
+.open-tab {
     Height: 500px;
     border: 1px solid #C6CBCD;
     border-top: 0;
-    /* margin-bottom: 50px; */
     box-sizing: border-box;
     display: inline-block;
 
 }
 
-.right-side {
+.right-side-tabs {
     box-sizing: border-box;
     display: inline-block;
     margin-right: -5px;
 }
 
-h3 {
+.left-side-tabs {
+    width: 570px;
+    display: inline-block;
+    margin: 0 25px 0 100px;
+    position: relative;
+    top: -77px;
+}
+
+.left-side-tabs h3 {
     height: 124px;
     font-size: 30px;
-    font-family: 'Open Sans';
+    font-family: Open Sans, sans-serif;
     box-sizing: border-box;
     display: inline-block;
 }
 
-h5 {
+.left-side-tabs h5 {
     height: 210px;
     font-size: 30px;
     font-family: 'Raleway';
     font-size: 18px;
-    font-weight: normal;
+    font-weight: 400;
     align-items: center;
     box-sizing: border-box;
     display: inline-block;
 }
 
-button {
+.left-side-tabs button {
     width: 270px;
     height: 58px;
     color: #FFF;
@@ -95,12 +98,6 @@ button {
     border: none;
     font-size: 18px;
     margin: 0 0 54px 0;
-}
-
-.left-side {
-    width: 570px;
-    display: inline-block;
-    margin: 0 25px 0 100px;
-    position: relative;
-    top: -77px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 600;
 }

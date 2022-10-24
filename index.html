@@ -5,20 +5,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="tabs.css">
-    <link rel="stylesheet" href="awesome.css">
-    <link rel="stylesheet" href="price.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/modern.css">
+    <link rel="stylesheet" href="styles/social.css">
+    <link rel="stylesheet" href="styles/tabs.css">
+    <link rel="stylesheet" href="styles/awesome.css">
+    <link rel="stylesheet" href="styles/price.css">
+    <link rel="stylesheet" href="styles/customer.css">
+    <link rel="stylesheet" href="styles/stylish.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <title>Document</title>
 </head>
 
 <body>
-    <section class="tabs-container">
-        <div class="info-block1">tab 1</div>
-        <div class="info-block">tab 2</div>
-        <div class="info-block">tab 3</div>
-        <div class="info-block4">.</div>
-        <section class="description">
-            <section class="left-side">
+    <header>
+        <div>
+            <img src="images/logo.png" alt="logo">
+            <nav>
+                <a href="#">Features</a>
+                <a href="#">About</a>
+                <a href="#">Pricing</a>
+                <a href="#">Reviews</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main class="modern-container">
+        <div class="modern-subcontainer">
+            <section class="modern__left-side">
+                <img src="images/logo-banner.png" alt="logo">
+                <h1>Modern axure template for beautiful prototypes</h1>
+                <div class="modern__separator"></div>
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                <button>Download</button>
+            </section>
+            <section class="modern__right-side">
+                <h4>Try Your <span class="colortext">free</span> Trial Today</h4>
+                <div class="modern__field">Name</div>
+                <div class="modern__field">Email</div>
+                <div class="modern__field">Password</div>
+                <div class="modern__field-button">Get Started</div>
+            </section>
+        </div>
+    </main>
+    <main class="social-container">
+        <div class="social-subcontainer">
+            <div class="social-subcontainer__text">
+                <h4>Social Media</h4>
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                </h5>
+            </div>
+            <section class="social-subcontainer__icon">
+                <img src="images/facebook-icon.png" alt="facebook">
+                <img src="images/twitter-icon.png" alt="twitter">
+                <img src="images/linkedin-icon.png" alt="linkedin">
+                <img src="images/pinterest-icon.png" alt="pinterest">
+                <img src="images/instagram-icon.png" alt="instagram">
+                <img src="images/github-icon.png" alt="github">
+                <img src="images/rss-icon.png" alt="rss">
+            </section>
+        </div>
+    </main>
+    <main class="tabs-container">
+        <section class="tabs-container__tabs-list">
+            <div class="info-block1">tab 1</div>
+            <div class="info-block">tab 2</div>
+            <div class="info-block">tab 3</div>
+            <div class="info-block4"></div>
+        </section>
+        <section class="open-tab">
+            <section class="left-side-tabs">
                 <h3>Tabs with soft transitioning effect.</h3>
                 <h5>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
@@ -31,90 +89,188 @@
                 </h5>
                 <button>Download</button>
             </section>
-            <section class="right-side">
-                <img src="Rectangle.png" alt="city">
+            <section class="right-side-tabs">
+                <img src="images/Rectangle.png" alt="city">
             </section>
         </section>
-    </section>
-    <div class="awesome-container">
-        <h2>Why this is awesome</h2>
-        <div class="awesome-line"></div>
-        <h5 class="title">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
-        <section>
-            <article class="group">
-                <img src="01.png" alt="lamp">
-                <div>
+    </main>
+    <main class="awesome-container">
+        <div class="awesome-subcontainer">
+            <h2>Why this is awesome</h2>
+            <div class="awesome-container__separator"></div>
+            <h5 class="awesome__title">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
+            <section class="awesome-info-container">
+                <article>
+                    <img src="images/01.png" alt="lamp">
                     <h4>Thoughtful Design</h4>
-                    <h5 class="text">
+                    <h5>
                         Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
                     </h5>
-                </div>
-            </article>
-            <article class="group">
-                <img src="02.png" alt="keyboard">
-                <div>
+                </article>
+                <article>
+                    <img src="images/02.png" alt="keyboard">
                     <h4>Thoughtful Design</h4>
-                    <h5 class="text">
+                    <h5>
                         Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
                     </h5>
-                </div>
-            </article>
-            <article class="group">
-                <img src="03.png" alt="lightning">
-                <div>
+                </article>
+                <article>
+                    <img src="images/03.png" alt="lightning">
                     <h4>Thoughtful Design</h4>
-                    <h5 class="text">
+                    <h5>
                         Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
                     </h5>
-                </div>
-            </article>
-        </section>
-    </div>
+                </article>
+            </section>
+        </div>
+    </main>
     <main class="price-container">
         <div class="price-subcontainer">
             <h2>Pricing options</h2>
-            <div class="separator"></div>
-            <h5 class="price-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+            <div class="price-container__separator"></div>
+            <h5 class="price__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
             <section class="price-info-container">
                 <section class="price-info">
                     <h4>Basic</h4>
                     <h3>$10</h3>
                     <h5 class="subtitle">Free for life</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
                 </section>
                 <section class="price-info second">
                     <h4>Optima</h4>
                     <h3>$20</h3>
                     <h5 class="subtitle">Free for life</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
                 </section>
                 <section class="price-info">
                     <h4>Pro</h4>
                     <h3>$30</h3>
                     <h5 class="subtitle">Free for life</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
-                    <h5 class="line">1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
+                    <h5>1 Gb Of Space</h5>
                 </section>
             </section>
         </div>
     </main>
+    <main class="customer-container">
+        <div class="customer-subcontainer">
+            <h2>what our customers are saying</h2>
+            <div class="customer-container__separator"></div>
+            <h5 class="customer-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
+            <section class="customer-info-container">
+                <article>
+                    <h5 class="customer-text">
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.
+                    </h5>
+                    <div class="triangle"></div>
+
+                    <img src="images/C1.png" alt="manager">
+                    <div class="managerright-side">
+                        <h4>Davis Rhiel Madsen</h4>
+                        <h5>Manager</h5>
+                    </div>
+                </article>
+                <article>
+                    <h5 class="customer-text">
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.
+                    </h5>
+                    <div class="triangle"></div>
+                    <img src="images/C2.png" alt="manager">
+                    <div class="managerright-side">
+                        <h4>Jaydon Rosser</h4>
+                        <h5>Manager</h5>
+                    </div>
+                </article>
+                <article>
+                    <h5 class="customer-text">
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.
+                    </h5>
+                    <div class="triangle"></div>
+
+                    <img src="images/C3.png" alt="manager">
+                    <div class="managerright-side">
+                        <h4>Cooper Dorwart</h4>
+                        <h5>Manager</h5>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+    <main class="stylish-container">
+        <div class="stylish-subcontainer">
+            <h2>Stylish axure desing</h2>
+            <div class="stylish__separator"></div>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            <div style="display:flex; justify-content:center;">
+                <button>Download</button>
+            </div>
+        </div>
+    </main>
+    <main class="contact-us-container">
+        <div class="contact-us-subcontainer">
+            <h2>Contact us</h2>
+            <div class="contact__separator"></div>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            <section class="form">
+                <div class="inputs">
+                    <div class="left-side">
+                        <div class="field">Name</div>
+                        <div class="field">Email</div>
+                        <div class="field">Password</div>
+                    </div>
+                    <div class="right-side">
+                        <div class="field">Message</div>
+                        <div class="field"></div>
+                        <div class="field"></div>
+                    </div>
+                </div>
+                <div style="display:flex; justify-content:center;">
+                    <button>Send Message</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <section class="contact-icon">
+            <img src="images/facebook_icon.png" alt="facebook">
+            <img src="images/twitter_icon.png" alt="twitter">
+            <img src="images/linkedin_icon.png" alt="linkedin">
+            <img src="images/pinterest_icon.png" alt="pinterest">
+            <img src="images/instagram_icon.png" alt="instagram">
+            <img src="images/github_icon.png" alt="github">
+            <img src="images/rss_icon.png" alt="rss">
+        </section>
+        <h5>&copy; 2015 Axure Themes</h5>
+    </footer>
 </body>
 
 </html>

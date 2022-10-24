@@ -1,0 +1,117 @@
+.modern-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/image-banner.png);
+}
+
+.modern-subcontainer {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1510px;
+    height: 1026px;
+    background-size: cover;
+    display: flex;
+
+}
+
+.modern__left-side {
+    width: 670px;
+    margin: 208px 30px 0 170px;
+}
+
+.modern__left-side h1 {
+    width: 670px;
+    height: 168px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #fff;
+    margin: 72.88px 0 55.12px;
+}
+
+.modern__separator {
+    width: 170px;
+    border: 0.5px solid #fff;
+}
+
+.modern__left-side h5 {
+    width: 270px;
+    height: 42px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    line-height: 21px;
+    margin: 42px 0 69px;
+}
+
+.modern__left-side button {
+    width: 270px;
+    height: 58px;
+    background: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid #fff;
+    font-family: Open Sans, sans-serif;
+
+}
+
+.modern__right-side {
+    width: 470px;
+    height: 450px;
+    border: 1px solid #fff;
+    margin-top: 208px;
+    background: #FFF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+}
+
+.modern__right-side h4 {
+    width: 367px;
+    height: 90px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 90px;
+}
+
+.modern__right-side .colortext {
+    color: #EC7979;
+}
+
+.modern__field {
+    width: 370px;
+    height: 38px;
+    border-bottom: 3px solid #BDBDBD;
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 33px;
+    font-family: Open Sans, sans-serif;
+}
+
+.modern__field-button {
+    height: 60px;
+    width: 470px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    background: #EC7979;
+    margin-top: 75px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.modern__field:first-of-type {
+    margin-top: 45px;
+}
