@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 
 .price-subcontainer {
@@ -82,7 +83,7 @@ section.second {
   margin: 0 auto;
 }
 
-.price-subcontainer .price__title {
+.price-container__title {
   margin: 40px 0 59px;
   font-weight: 400;
   font-size: 18px;
@@ -103,4 +104,122 @@ section.second {
   width: 370px;
   height: 50px;
   background: #FFFFFF;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .price-subcontainer {
+    width: 992px;
+
+  }
+
+  .price-subcontainer h2 {
+    height: 120px;
+    font-size: 24px;
+  }
+
+  .price-container__title {
+    font-size: 14px;
+  }
+
+  .price-container__separator {
+    border: 0.5px solid #EC7979;
+    width: 143px;
+    margin: 0 auto;
+  }
+
+  .price-info-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .price-info {
+    width: 317px;
+    height: 452px;
+
+  }
+
+  .price-info h3 {
+
+    width: 318px;
+    height: 88.68px;
+  }
+
+  .price-info .subtitle {
+    width: 318px;
+    height: 21px;
+  }
+
+  .price-info h5:not(.subtitle) {
+    width: 318px;
+    height: 44.34px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .price-container {
+    height: 1480px;
+    background: #F5F5F5;
+  }
+
+  .price-subcontainer {
+    width: 288px;
+    height: 1480px;
+    background: #F5F5F5;
+  }
+
+  .price-subcontainer h2 {
+    height: 120px;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .price-container__title {
+    text-align: center;
+    font-size: 14px;
+    width: 288px;
+    margin: 24px 0;
+  }
+
+  .price-container__separator {
+    border: 0.5px solid #EC7979;
+    width: 134px;
+    margin: 0 auto;
+  }
+
+  .price-info-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .price-info {
+    width: 288px;
+  }
+
+  .price-info h3 {
+    font-size: 24px;
+    height: 78.43px;
+    width: 288px;
+  }
+
+  .price-info .subtitle {
+    width: 288px;
+    height: 39.22px;
+    font-size: 14px;
+  }
+
+  .price-info h5:not(.subtitle) {
+    width: 288px;
+    height: 39.22px;
+    font-size: 14px;
+  }
+
+  .price-info h4 {
+    height: 47.01px;
+    font-size: 18px;
+    margin-top: 24px;
+  }
 }

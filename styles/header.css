@@ -1,10 +1,10 @@
-
-
 header {
     height: 75px;
     background-color: #000;
     color: #fff;
 }
+
+
 
 header img[alt='logo'] {
     margin-left: 115.28px;
@@ -34,4 +34,45 @@ header a {
     justify-content: center;
     color: #fff;
     text-decoration: none;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header {
+        height: 74.85px;
+        width: 1024px;
+    }
+
+    header nav {
+        display: flex;
+        align-items: center;
+        height: 75px;
+        margin-right: 20px;
+
+    }
+
+    header img[alt='logo'] {
+        margin-left: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    header {
+        height: 56px;
+        /* width: 320px; */
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header img[alt='logo'] {
+        margin-left: 20px;
+        width: 130px;
+        height: 56px;
+    }
+
+    header nav {
+        display: none;
+    }
 }

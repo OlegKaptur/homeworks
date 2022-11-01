@@ -1,5 +1,4 @@
 .stylish-container {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,4 +48,62 @@
     color: #fff;
     border: 2px solid #fff;
     font-family: Open Sans;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .stylish-subcontainer {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 1024px;
+        height: 358px;
+        background-size: cover;
+    }
+
+    .stylish-subcontainer h2 {
+        height: 120px;
+        font-size: 24px;
+        margin-top: 50px;
+    }
+
+    .stylish__separator {
+        width: 142px;
+    }
+
+    .stylish-subcontainer h5 {
+        font-size: 14px;
+        margin: 32px 0;
+    }
+
+    .stylish-subcontainer button {
+        width: 318px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .stylish-subcontainer {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 358px;
+        background-size: 100%;
+    }
+
+    .stylish-subcontainer h2 {
+        height: 120px;
+        font-size: 24px;
+        margin-top: 50px;
+    }
+
+    .stylish__separator {
+        width: 134px;
+    }
+
+    .stylish-subcontainer h5 {
+        font-size: 14px;
+        margin: 32px 0;
+    }
+
+    .stylish-subcontainer button {
+        width: 287px;
+        height: 50px;
+    }
 }

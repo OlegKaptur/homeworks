@@ -1,4 +1,3 @@
-
 .contact-us-container {
     height: 100vh;
     display: flex;
@@ -11,6 +10,11 @@
     width: 1170px;
 }
 
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {}
+
 .contact-us-subcontainer h2 {
     height: 150px;
     font-weight: 400;
@@ -20,7 +24,7 @@
     line-height: 150px;
 }
 
-.contact__separator {
+.contact-us-container__separator {
     width: 170px;
     border: 0.5px solid #EC7979;
     margin: 0 auto;
@@ -36,7 +40,7 @@
     margin: 40px 0 89px;
 }
 
-.form .field {
+.contact-us-container__form .field {
     width: 571px;
     height: 38px;
     border-bottom: 3px solid #BDBDBD;
@@ -60,11 +64,14 @@
     font-family: Open Sans, sans-serif;
 
 }
-.inputs {
+
+.contact-us-container__inputs {
     display: flex;
     justify-content: space-between;
 }
-.left-side, .right-side {
+
+.left-side,
+.right-side {
     width: 569px;
 
 }
